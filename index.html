@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			body, main, h1, #actions, #activity, #captures {
+				font-family: sans-serif;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-bottom: 10px;
+			}
+			html, body, main, aside, iframe {
+				height: 100%;
+			}
+			body {
+				flex-direction: row;
+				justify-content: space-around;
+				width: 100%;
+			}
+			#actions.inline {
+				flex-direction: row;
+				width: 240px;
+				justify-content: space-between;
+			}
+			button {
+				font-size: large;
+				border-radius: 3px;
+				border: 0;
+				margin: 10px;
+				display: block;
+				padding: 4px;
+				background: whitesmoke;
+			}
+			.time {
+				width: 7ch;
+			}
+			textarea {
+				vertical-align: top;
+				margin-bottom: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1></h1>
+			<div id="actions">
+			</div>
+			<div id="activity">
+			</div>
+			<div id="captures">
+			</div>
+			<script type="module">
+				import script from './script';
+				script();
+			</script>
+		</main>
+		<aside></aside>
+	</body>
+</html>

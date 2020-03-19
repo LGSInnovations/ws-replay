@@ -1,0 +1,15 @@
+{
+	"name": "wsreplay",
+	"version": "0.0.0",
+	"description": "To observe/save/inject server messages to facilitate frontend development",
+	"main": "proxy-server.js",
+	"scripts": {
+		"test": "test.js"
+	},
+	"author": "Marcus Reese <marcusoccasional@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"http-proxy": "^1.18.0",
+		"ws": "^7.2.3"
+	}
+}
