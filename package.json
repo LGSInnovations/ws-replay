@@ -9,7 +9,7 @@
 	"author": "Marcus Reese <marcusoccasional@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
-		"http-proxy": "^1.18.0",
+		"http-proxy": "^1.18.1",
 		"ws": "^7.2.3"
 	}
 }
